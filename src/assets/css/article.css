@@ -1,0 +1,30 @@
+h1 {
+  line-height: 2.7;
+  color: #204040;
+}
+h2 {
+  line-height: 2.5;
+  color: #204040;
+}
+h3 {
+  line-height: 2.3;
+  color: #204040;
+}
+h4 {
+  line-height: 2.1;
+  color: #204040;
+}
+h5 {
+  line-height: 2;
+  color: #204040;
+}
+p{
+  line-height: 2;
+  color: #204040;
+}
+a{
+  color: #4f8e54;
+}
+a:hover{
+  color: skyblue;
+}

@@ -1,0 +1,13 @@
+*,html{
+  padding: 0;
+  margin: 0;
+}
+html,body {
+  height: 100%;
+}
+.ts {
+  transition: all 0.3s;
+}
+a{
+  text-decoration:none
+}
