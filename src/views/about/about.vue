@@ -17,14 +17,16 @@
     <div class="aboutPart">
       <span class="spanTitle">简介</span>
       <div class="spanInfo">
-         <div class="infoitem">这个博客是我2020年2月27日开始编写的，比较花费时间的主要是前期的学习阶段，包括前端技术栈：HTML,CSS,JS,Vue，后端的技术栈：Node.js,Mongoose等。由于还在复习专业课和高数等等，只能每天晚上花费大约3个小时左右时间进行学习，陆续学习了大约两个月，算是掌握了这些技术的基本使用</div>
+         <div class="infoitem">这个博客是我2020年2月27日开始编写的，比较花费时间的主要是前期的学习阶段，包括前端技术栈：HTML,CSS,JS,Vue，后端的技术栈：Node.js,Mongoose等。晚上花费大约3个小时左右时间进行学习，陆续学习了大约两个月，掌握了这些技术的基本使用</div>
       </div>
     </div>
     <div class="aboutPart">
       <span class="spanTitle"></span>
       <div class="spanInfo">
          <div class="infoitem">更多详情请参考这篇文章 </div>
-         <div><rouer-link>Hello World</rouer-link></div>
+         <div class="infoitem">
+         <router-link to="/article/5e636b16532925d6a068d07f" >Hello World</router-link>
+         </div>
       </div>
     </div>
     <div class="aboutPart">

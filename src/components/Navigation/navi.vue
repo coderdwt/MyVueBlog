@@ -37,7 +37,7 @@
       </naviitem>
     <div class="bird ts" @click="birdClick">
       <img v-if="!isNavshow" class="nav-menu-img" src="../../assets/img/bird.png" alt="">
-      <img v-else class="nav-menu-img" src="../../assets/img/bird-active.png" alt="">
+      <img v-if="isNavshow" class="nav-menu-img" src="../../assets/img/birdactive.png" alt="">
     </div>
   </div>
 </template>

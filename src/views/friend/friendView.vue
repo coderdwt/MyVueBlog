@@ -34,7 +34,6 @@ export default {
   created(){
     request('/link').then((res)=>{
       this.links=res
-      console.log(this.links)
     })
   }
 

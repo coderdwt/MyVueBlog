@@ -1,9 +1,7 @@
 <template>
   <div id="app" ref='app'>
     <navigation @changeModel="change($event,model)"></navigation>
-    <keep-alive>
-      <router-view/>
-    </keep-alive>
+    <router-view/>
   </div>
 </template>
 <script>

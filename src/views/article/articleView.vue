@@ -14,7 +14,7 @@
         <div>最后编辑于：<span>{{singleArticle.date | formatDate}}</span></div>
         <div>阅读量：<span>{{singleArticle.readCount}}</span></div>
       </div>
-      <div v-html="singleArticle.content" class="mainContent" v-highlight/>
+      <div v-html="singleArticle.content" class="mainContent" v-highlight />
       <mainComment :article="singleArticle"></mainComment> 
       </div>
       <div class="right" ref="right">
@@ -77,15 +77,9 @@ export default {
     this.screenHeight = window.innerHeight
     this.getData()  
   },
+  
   mounted(){
      this.set()
-  },
-  activated() {
-    const articleId = this.$route.params.articleID
-    if (articleId !== this.id) {
-      this.id = articleId
-      this.getData()
-    }
   },
   components:{
     mainComment,
